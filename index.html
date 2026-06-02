@@ -56,7 +56,161 @@
       <!-- Interactive Phone Mockup -->
       <div class="hero-mockup">
         <div class="phone-wrapper">
-          <img src="app-preview.jpg" alt="Azan Times World App Screenshot" class="app-screenshot">
+          <div class="phone-screen">
+            <!-- Simulated Android Status Bar -->
+            <div class="phone-status-bar">
+              <span>11:20</span>
+              <div class="status-icons">
+                <!-- Signal -->
+                <svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" style="vertical-align: middle;">
+                  <path d="M2 22h20V2z"/>
+                </svg>
+                <!-- Wifi -->
+                <svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" style="vertical-align: middle;">
+                  <path d="M12 21l-12-18h24z"/>
+                </svg>
+                <!-- Battery -->
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" style="vertical-align: middle;">
+                  <path d="M17 5H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm3 3h2v8h-2V8z"/>
+                </svg>
+                <span style="font-size: 0.55rem; font-weight: 800; margin-left: 1px;">56</span>
+              </div>
+            </div>
+            
+            <!-- App Header -->
+            <div class="app-header-area">
+              <div class="app-header-left">
+                <div class="app-title">Azan Times World</div>
+                <div class="app-date-primary">Tuesday, June 2</div>
+                <div class="app-date-hijri">16 Dhu al-Hijjah 1447 AH</div>
+              </div>
+              <div class="app-header-right">
+                <!-- Compass / Qibla -->
+                <div class="circle-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13l-2 6 6 2-2-6-2-2z"/>
+                  </svg>
+                </div>
+                <!-- Calendar -->
+                <div class="circle-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="currentColor">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                  </svg>
+                </div>
+                <!-- Settings -->
+                <div class="circle-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="currentColor">
+                    <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Active Prayer Forest Green Card -->
+            <div class="active-prayer-card">
+              <div class="location-pill">
+                <!-- Map Pin Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="9" height="9" fill="currentColor">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                <span class="location-text">Seremban, Negeri Sembilan, Malaysia</span>
+                <!-- Sync/Refresh Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="9" height="9" fill="currentColor">
+                  <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
+                </svg>
+              </div>
+              <div class="prayer-label">Dhuhr</div>
+              <div class="prayer-time-value">1:13 PM</div>
+              <div class="countdown-pill">
+                <!-- Clock Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="9" height="9" fill="currentColor">
+                  <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span>Starts in 1h 52m</span>
+              </div>
+            </div>
+            
+            <!-- Today's Schedule Card -->
+            <div class="schedule-card">
+              <div class="schedule-title">TODAY'S SCHEDULE</div>
+              <div class="schedule-rows">
+                <!-- Imsak -->
+                <div class="schedule-row">
+                  <span class="p-name">Imsak</span>
+                  <span class="p-time">5:39 AM</span>
+                  <div class="status-icon-btn mute">
+                    <!-- Speaker Mute SVG -->
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.03c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Fajr -->
+                <div class="schedule-row">
+                  <span class="p-name">Fajr</span>
+                  <span class="p-time">5:49 AM</span>
+                  <div class="status-icon-btn sound">
+                    <!-- Speaker Sound SVG -->
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Sunrise (Active Highlighted) -->
+                <div class="schedule-row active">
+                  <span class="p-name">Sunrise</span>
+                  <span class="p-time">7:01 AM</span>
+                  <div class="status-icon-btn mute">
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.03c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Dhuhr -->
+                <div class="schedule-row">
+                  <span class="p-name">Dhuhr</span>
+                  <span class="p-time">1:13 PM</span>
+                  <div class="status-icon-btn vibrate">
+                    <!-- Phone Vibrate SVG -->
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm1 19c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h8c.55 0 1 .45 1 1v16zm-5 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Asr -->
+                <div class="schedule-row">
+                  <span class="p-name">Asr</span>
+                  <span class="p-time">4:37 PM</span>
+                  <div class="status-icon-btn vibrate">
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm1 19c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h8c.55 0 1 .45 1 1v16zm-5 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Maghrib -->
+                <div class="schedule-row">
+                  <span class="p-name">Maghrib</span>
+                  <span class="p-time">7:20 PM</span>
+                  <div class="status-icon-btn vibrate">
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm1 19c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h8c.55 0 1 .45 1 1v16zm-5 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Isha -->
+                <div class="schedule-row">
+                  <span class="p-name">Isha</span>
+                  <span class="p-time">8:34 PM</span>
+                  <div class="status-icon-btn vibrate">
+                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                      <path d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm1 19c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h8c.55 0 1 .45 1 1v16zm-5 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
         <div class="phone-decorations"></div>
       </div>
